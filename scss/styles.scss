@@ -37,12 +37,8 @@ div.cajasContainer {
 }
 
 .butContainer {
-  border-radius: 10px;
-  background-color: $color-grisClaro;
   margin: 5px auto;
-  padding: 5px;
   border: none;
-
   @include buttons
 }
 
@@ -53,6 +49,7 @@ div.cajasContainer {
   align-items: center;
   margin: 20px;
   border: dotted #fed792 2px;
+  background-color: $color-grisClaro;
 }
 
 .ubicacion,
@@ -143,6 +140,7 @@ textarea {
 .cartasImg {
   max-width: 400px;
   width: 90%;
+  margin-bottom: 10px;
 }
 
 div .titCartas {
@@ -151,8 +149,9 @@ div .titCartas {
   font-weight: bold;
 }
 
-.down a {
-  color: $color-rojo;
+.down {
+  @include buttons;
+
 }
 
 
@@ -227,8 +226,7 @@ div.card {
 }
 
 div.card-body {
-  background-color: $color-grisOscuro;
-
+  background-color: $color-grisClaro;
   @include buttons
 }
 

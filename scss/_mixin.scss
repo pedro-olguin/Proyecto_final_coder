@@ -41,16 +41,21 @@
     a {
         color: $color-negro;
         text-decoration: none;
+        border-radius: 10px;
+        background-color: $color-grisOscuro;
+        margin: 5px auto;
+        padding: 5px;
+        border: none;
 
         &:hover {
             color: $color-rojo;
+            background-color: $color-grisOscuro;
         }
 
         &:active {
             background-color: $color-rojo;
             color: $color-blanco;
-            border-radius: 5px;
-            padding: 5px;
+
         }
     }
 }

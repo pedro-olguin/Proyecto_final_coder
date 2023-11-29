@@ -1,6 +1,6 @@
 /*header*/
 .bodyContainer {
-  background-color: #d0c8bd;
+  background-color: #ecebeb;
 }
 
 .headerContainer {
@@ -93,24 +93,25 @@ div.cajasContainer {
 }
 
 .butContainer {
-  border-radius: 10px;
-  background-color: #d0c8bd;
   margin: 5px auto;
-  padding: 5px;
   border: none;
 }
 .butContainer a {
   color: black;
   text-decoration: none;
+  border-radius: 10px;
+  background-color: #a9a39a;
+  margin: 5px auto;
+  padding: 5px;
+  border: none;
 }
 .butContainer a:hover {
   color: #df0914;
+  background-color: #a9a39a;
 }
 .butContainer a:active {
   background-color: #df0914;
-  color: #fafafa;
-  border-radius: 5px;
-  padding: 5px;
+  color: #ecebeb;
 }
 
 .info {
@@ -120,6 +121,7 @@ div.cajasContainer {
   align-items: center;
   margin: 20px;
   border: dotted #fed792 2px;
+  background-color: #d0c8bd;
 }
 
 .ubicacion,
@@ -203,6 +205,7 @@ textarea {
 .cartasImg {
   max-width: 400px;
   width: 90%;
+  margin-bottom: 10px;
 }
 
 div .titCartas {
@@ -212,7 +215,21 @@ div .titCartas {
 }
 
 .down a {
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #a9a39a;
+  margin: 5px auto;
+  padding: 5px;
+  border: none;
+}
+.down a:hover {
   color: #df0914;
+  background-color: #a9a39a;
+}
+.down a:active {
+  background-color: #df0914;
+  color: #ecebeb;
 }
 
 /*Nosotros*/
@@ -282,20 +299,24 @@ div.card {
 }
 
 div.card-body {
-  background-color: #a9a39a;
+  background-color: #d0c8bd;
 }
 div.card-body a {
   color: black;
   text-decoration: none;
+  border-radius: 10px;
+  background-color: #a9a39a;
+  margin: 5px auto;
+  padding: 5px;
+  border: none;
 }
 div.card-body a:hover {
   color: #df0914;
+  background-color: #a9a39a;
 }
 div.card-body a:active {
   background-color: #df0914;
-  color: #fafafa;
-  border-radius: 5px;
-  padding: 5px;
+  color: #ecebeb;
 }
 
 /*mediaQ header*/
