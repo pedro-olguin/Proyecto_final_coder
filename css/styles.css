@@ -188,6 +188,15 @@ textarea {
 }
 
 /*pageCartas*/
+.titleCartas {
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  text-decoration: underline;
+  margin-top: 30px;
+  text-align: center;
+}
+
 .cartasContainer {
   display: grid;
   grid-template-columns: 1fr;
