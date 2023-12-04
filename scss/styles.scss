@@ -7,10 +7,11 @@
 
 /*main principal*/
 div .carousel-inner div img {
-  width: 70%;
+  width: 95%;
   margin: 0 auto;
   border-radius: 20px;
   border: $color-rojo solid 2px;
+
 }
 
 div.cajasContainer {
@@ -27,7 +28,7 @@ div.cajasContainer {
 
   h1,
   p {
-    font-family: $fuente-parrafos
+    font-family: $fuente-parrafos;
   }
 }
 
@@ -92,7 +93,7 @@ div.cajasContainer {
   border-radius: 20px;
 
   h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $fuente-parrafos;
     font-size: 24px;
     margin: 10px;
     font-weight: bolder;
@@ -125,7 +126,7 @@ textarea {
 
 .titleCartas {
   font-size: 24px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, $fuente-parrafos;
   font-weight: bolder;
   text-decoration: underline;
   margin-top: 30px;
@@ -193,7 +194,7 @@ div .titCartas {
 }
 
 .oPromoP {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: $fuente-parrafos;
   color: $color-rojo;
   font-size: 14px;
 }

@@ -65,7 +65,7 @@
 
 /*main principal*/
 div .carousel-inner div img {
-  width: 70%;
+  width: 95%;
   margin: 0 auto;
   border-radius: 20px;
   border: #df0914 solid 2px;
@@ -190,7 +190,7 @@ textarea {
 /*pageCartas*/
 .titleCartas {
   font-size: 24px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
   text-decoration: underline;
   margin-top: 30px;
@@ -350,6 +350,16 @@ div.card-body a:active {
 @media (max-width: 576px) {
   .footerContainer {
     grid-template-columns: 1fr;
+  }
+}
+
+/* index */
+@media (min-width: 900px) {
+  div .carousel-inner div img {
+    width: 65%;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: #df0914 solid 2px;
   }
 }
 
